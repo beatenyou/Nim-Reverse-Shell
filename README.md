@@ -9,7 +9,7 @@ A simple reverse shell written in Nim that bypasses Windows Defender detection (
 - Windows 11 (10.0.22621)
 
 
-## Installation
+### Installation
 
 ```bash
 sudo apt install mingw-w64
