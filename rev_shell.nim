@@ -1,5 +1,5 @@
 #[ 
-   Created by Sn1r https://github.com/Sn1r/ & updated
+   Created by Sn1r https://github.com/Sn1r/ & minor updates beatenyou
  ]#
 
 import net, os, osproc, strutils
