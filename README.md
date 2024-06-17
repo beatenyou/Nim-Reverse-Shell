@@ -1,6 +1,6 @@
 # Nim Reverse Shell
 
-A simple reverse shell written in Nim that bypasses Windows Defender detection (see the "Tested Operating Systems" section below for more details). **This code is made for educational purposes only**.
+A simple reverse shell written in Nim (see the "Tested Operating Systems" section below for more details). **This code is made for educational purposes only**.
 
 
 ## Tested Operating Systems
