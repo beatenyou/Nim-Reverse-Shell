@@ -19,14 +19,13 @@ sudo apt install nim
 The code can be compiled in various ways using Nim. In this example, the code is compiled to EXE using MinGW and runs in the victim's background once executed (thanks to the "--app:gui" flag). Update IP and port
 
 ```bash
-nim c -d:mingw --app:gui rev_shell.nim
 nim c -d:mingw --app:gui --opt:speed -o:AdobeUpdate.exe rev-shell.nim
-  -d: define compiler
-  --app: generate gui app
-  --opt: optimize for speed
-  -o: output
 ```
-
+#### Parameters
+-d: define compiler
+--app: generate gui app
+--opt: optimize for speed
+-o: output
 ### Execution
 Cybersecurity professional
 ```bash
