@@ -22,10 +22,10 @@ The code can be compiled in various ways using Nim. In this example, the code is
 nim c -d:mingw --app:gui --opt:speed -o:AdobeUpdate.exe rev-shell.nim
 ```
 #### Parameters
-*-d: define compiler
-*--app: generate gui app
-*--opt: optimize for speed
-*-o: output
+*  -d: define compiler
+*  --app: generate gui app
+*  --opt: optimize for speed
+*  -o: output
 ### Execution
 Cybersecurity professional
 ```bash
