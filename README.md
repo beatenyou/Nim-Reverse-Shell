@@ -5,9 +5,7 @@ A simple reverse shell written in Nim (see the "Tested Operating Systems" sectio
 
 ## Tested Operating Systems
 
-- Windows 10 (10.0.19045) 
-- Windows 11 (10.0.22621)
-
+- Windows 10, 11
 
 ### Installation
 
